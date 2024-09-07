@@ -10,6 +10,11 @@ thousands = ['', 'thousand', 'million']
 
 
 def stringify(number):
+    """
+
+    :param number:
+    :return:
+    """
     pass
 
 if __name__ == "__main__":
