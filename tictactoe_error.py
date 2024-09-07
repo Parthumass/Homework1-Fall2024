@@ -42,7 +42,7 @@ while winner :
 
     playerOneTurn = not playerOneTurn
 
-    for x in range (0, 3) :
+    for x in range (0, 3) :  # Place break point at this line!
             y = x * 3
         if (choices[y] == choices[(y + 1)] and choices[y] == choices[(y + 2)]) :
             winner = True
