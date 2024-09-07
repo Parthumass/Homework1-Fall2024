@@ -42,9 +42,9 @@ class Question2:
 
 
 if __name__ == "__main__":
-    # Note: the following code is for local debugging only.
-    # The result is NOT going to be graded by the autograder!
-    # You need to have correct solving logic to get full marks!
-    print(Question2.solveMonomial(1, 1, 4))
-    print(Question2.solvePolynomial(1, 1, 4))
+    a = int(input("Please input the value for a: "))
+    b = int(input("Please input the value for b: "))
+    c = int(input("Please input the value for c: "))
+    print("Monomial:", Question2.solveMonomial(a, b, c))
+    print("Polynomial:", Question2.solvePolynomial(a, b, c))
 
