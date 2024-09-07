@@ -31,10 +31,9 @@ class Question2:
 
     @staticmethod
     def autograder():
-        REPLACE_WITH_YOUR_SOLUTION = None
         return {
-           "monomial": REPLACE_WITH_YOUR_SOLUTION,
-            "polynomial": REPLACE_WITH_YOUR_SOLUTION
+           "monomial": int("REPLACE_WITH_YOUR_RESULT"),
+            "polynomial": int("REPLACE_WITH_YOUR_RESULT")
         }
 
 
