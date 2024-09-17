@@ -10,6 +10,8 @@ thousands = ['', 'thousand', 'million']
 
 
 def stringify(number):
+            nlst= list(number)
+            print (nlst)
     """
 
     :param number:
